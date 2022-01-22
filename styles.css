@@ -1,0 +1,118 @@
+body {
+	margin:0px;
+    background: #000;
+    position: relative;
+	padding-bottom: 90px;
+	min-height: 100vh;
+    font-family: 'Spartan', sans-serif;
+    color: #fff;
+    line-height: 1.6;
+    padding-bottom: 0;
+}
+
+.barra {
+    background: linear-gradient(270deg, rgb(171, 102, 255) 0%, rgb(20, 241, 149) 101.39%);
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    margin: 75px 35px;
+    float: left;
+}
+
+.info {
+    margin-top: 5%;
+    margin-bottom: 22%;
+}
+.info h1{
+	text-align: center;
+	font-size: 65px;
+    margin: 10px
+}
+.info h1:hover{
+    transition: color .8s ease-out;
+    color: #f06495;
+}
+
+.info h2{
+	text-align: center;
+	font-size: 15px;
+}
+
+
+/* videos */
+.videos {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+}
+.title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+
+/* CONTACT INFO */
+.contact-info {
+    background: #000;
+    opacity: .75;
+    backdrop-filter: blur(2px);
+    margin-top: 30px;
+}
+
+.contact-info h4, .contact-info ul, .contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+.copy {
+    display: inline-block;
+    padding: 10px 25px;
+}
+.copy a{
+    text-decoration: none;
+}
+
+.copy a:hover{
+    color: #f06495;
+}
+
+.copy i {
+    font-size: 35px;
+}
+.copy i:hover {
+    transition: color .3s ease-out;
+    color: #f06495;
+}
+
+
+
+@media screen and (max-width: 800px){
+
+    .info {
+        margin: 15px 0;
+        padding-top: 80px;
+        padding-bottom: 65px;
+    }
+    .info h1 {
+        font-size: 40px;
+    }
+    .info h2 {
+        font-size: 15px;
+    }
+    .copy {
+        font-size: 13px;
+        padding: 10px 14px;
+    }
+    .copy i {
+        font-size: 29px;
+    }
+
+}
