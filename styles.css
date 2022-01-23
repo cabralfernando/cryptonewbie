@@ -55,7 +55,7 @@ nav{
 .videos {
     text-align: center;
     margin-top: 50px;
-    font-size: 40px;
+    font-size: 35px;
 }
 .title {
     text-align: center;
@@ -64,6 +64,29 @@ nav{
     font-size: 20px;
 }
 
+
+.btn {
+    margin: 10px auto;
+}
+.boton {
+    background: rgb(171, 102, 255);
+    border-radius: 11%;
+    text-align: center;
+    width: 90px;
+    height: 40px;    
+    margin: 10px auto;
+} 
+    
+.boton:hover{
+    transition: color .8s ease-out;
+    background: rgb(20, 241, 149);
+} 
+
+.boton a{
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+}
 
 p {
     text-align: center;
@@ -161,9 +184,6 @@ p {
     left:0;
 }
 
-#analisis {
-    margin-bottom: 180px;
-}
 
 
 @media screen and (max-width: 800px){
