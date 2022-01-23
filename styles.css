@@ -160,9 +160,7 @@ p {
 #check:checked ~ ul{
     left:0;
 }
-#quees {
-    margin-bottom: 180px;
-}
+
 #analisis {
     margin-bottom: 180px;
 }
