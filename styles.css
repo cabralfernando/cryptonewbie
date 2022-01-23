@@ -36,14 +36,18 @@ nav{
 	font-size: 65px;
     margin: 10px
 }
-.info h1:hover{
+.info h2:hover{
     transition: color .8s ease-out;
-    color: #f06495;
+    color: rgb(20, 241, 149);
 }
 
 .info h2{
 	text-align: center;
 	font-size: 15px;
+}
+.info h1:hover{
+    transition: color .8s ease-out;
+    color: rgb(171, 102, 255);
 }
 
 
