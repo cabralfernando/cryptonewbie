@@ -1,13 +1,13 @@
 body {
 	margin:0px;
-    background: #000;
+    background: #111;
     position: relative;
 	padding-bottom: 90px;
 	min-height: 100vh;
-    font-family: 'Spartan', sans-serif;
     color: #fff;
     line-height: 1.6;
     padding-bottom: 0;
+    font-family: 'Spartan', sans-serif;
 }
 
 .barra {
@@ -22,7 +22,8 @@ nav{
 }
 
 .logo{
-    margin: 75px 35px;
+    margin-left: 30px;
+    margin-top: 12px;
     float: left;
 }
 
@@ -106,7 +107,7 @@ p {
     font-size: 45px;
     float: right;
     line-height: 80px;
-    margin-left: 1790px;
+    margin-left: 1690px;
     margin-top: 7px;
     cursor: pointer;
     display: none;
@@ -125,7 +126,7 @@ p {
     width: 100%;
     height: 100vh;
     background: #00132c;
-    top: 120px;
+    top: 125px;
     left: -120%;
     text-align: center;
     transition: all .5s;
@@ -165,6 +166,9 @@ p {
 
 @media screen and (max-width: 800px){
 
+    .logo{
+        margin: 20px 10px;
+    }
     .info {
         margin: 15px 0;
         padding-top: 80px;
@@ -184,10 +188,10 @@ p {
         font-size: 29px;
     }
     .checkbtn {
-    margin-left: 320px;
+    margin-left: 200px;
     }
     p {
-        margin: 3px 0;
+        margin: 3px 4px;
         font-size: 15px;
     }
 
