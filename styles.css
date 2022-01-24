@@ -66,20 +66,21 @@ nav{
 
 
 .btn {
-    margin: 10px auto;
+    width: 100px;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 .boton {
-    background: rgb(171, 102, 255);
+    background: linear-gradient(270deg, rgb(171, 102, 255) 0%, rgb(20, 241, 149) 101.39%);
     border-radius: 11%;
-    text-align: center;
     width: 90px;
     height: 40px;    
-    margin: 10px auto;
+    margin: 10px;
 } 
     
 .boton:hover{
     transition: color .8s ease-out;
-    background: rgb(20, 241, 149);
+    background: linear-gradient(270deg, rgb(20, 241, 149) 0%,  rgb(171, 102, 255)101.39%);
 } 
 
 .boton a{
@@ -91,6 +92,10 @@ nav{
 p {
     text-align: center;
     margin: 10px 230px 80px 230px;
+}
+
+.fa-bitcoin:hover {
+    color: #FF9500;
 }
 
 
@@ -119,7 +124,7 @@ p {
 }
 
 .copy a:hover{
-    color: #f06495;
+    color: #FF9500;
 }
 
 .copy i {
@@ -127,7 +132,7 @@ p {
 }
 .copy i:hover {
     transition: color .3s ease-out;
-    color: #f06495;
+    color: #fff;
 }
 
 
