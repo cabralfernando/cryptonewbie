@@ -73,9 +73,8 @@ nav{
 .boton {
     background: linear-gradient(270deg, rgb(171, 102, 255) 0%, rgb(20, 241, 149) 101.39%);
     border-radius: 11%;
-    width: 90px;
+    width: 100px;
     height: 40px;    
-    margin: 10px;
 } 
     
 .boton:hover{
