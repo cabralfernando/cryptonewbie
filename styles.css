@@ -102,8 +102,9 @@ p {
 /* CONTACT INFO */
 .contact-info {
     background: #111;
-    opacity: .75;
-    backdrop-filter: blur(2px);
+    transition: all .5s;
+    opacity: .8;
+    backdrop-filter: blur(10px);
     margin-top: 30px;
 }
 
