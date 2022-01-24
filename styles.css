@@ -108,6 +108,7 @@ p {
 }
 .contact-info ul{
     padding: 0;
+    margin-bottom: 0;
 }
 .copy {
     display: inline-block;
