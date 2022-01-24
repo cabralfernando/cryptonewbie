@@ -90,11 +90,17 @@ nav{
 
 p {
     text-align: center;
-    margin: 3px 12px;
+    margin: 3px 120px;
 }
 
 .fa-bitcoin:hover {
     color: #FF9500;
+}
+
+
+/* valores */ 
+#analisis {
+    margin: 20px 390px;
 }
 
 
@@ -223,6 +229,9 @@ p {
     p {
         margin: 3px 12px;
         font-size: 15px;
+    }
+    #analisis {
+        margin: 5px 15px;
     }
 
 }
