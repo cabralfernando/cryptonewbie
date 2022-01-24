@@ -196,6 +196,14 @@ p {
     left:0;
 }
 
+.yt {
+    margin: 2% 40%;
+    transform: translateX(-50%);
+}
+.yt2 {
+    width: 820px;
+    height: 386px; 
+}
 
 
 
@@ -233,5 +241,14 @@ p {
     #analisis {
         margin: 5px 15px;
     }
+    .yt {
+        margin: 5px 50px;
+        transform: none;
+    }
+    .yt2 {
+        width: 310px;
+        height: 160px; 
+    }
+    
 
 }
