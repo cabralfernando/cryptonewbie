@@ -8,7 +8,6 @@ body {
     line-height: 1.6;
     padding-bottom: 0;
     font-family: 'Spartan', sans-serif;
-    max-width: 100%;
 }
 
 .barra {
@@ -90,6 +89,10 @@ nav{
 }
 
 p {
+    text-align: center;
+    margin: 3px 360px;
+}
+.li2 {
     text-align: center;
     margin: 3px 360px;
 }
@@ -212,6 +215,7 @@ p {
 
 @media screen and (max-width: 800px){
 
+    
     .logo{
         margin: 20px 10px;
     }
@@ -254,6 +258,5 @@ p {
     .trading {
         width:300px;
     }
-
 
 }
