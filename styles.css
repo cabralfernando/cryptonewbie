@@ -293,12 +293,12 @@ p {
 
     .info2 {
         margin: 80px 80px 10px 80px;
-        padding-top: 100px;
-        padding-bottom: 65px;
+        padding-top: 80px;
+        padding-bottom: 20px;
     }
     .info2 h1 {
-        font-size: 80px;
-        margin-left: -70px;
+        font-size: 70px;
+        margin-left: -95px;
         margin-bottom: 0;
     }
     .info2 h2 {
