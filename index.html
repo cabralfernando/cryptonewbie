@@ -13,88 +13,80 @@
         <meta name="description" content="Aprende sobre criptomonedas (Bitcoin y más) totalmente gratis.">
         <script src="https://kit.fontawesome.com/f8fe1e3b0f.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
         <title>Crypto Newbie</title>
     </head>
 <body>
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v12.0&appId=507608040691049&autoLogAppEvents=1" nonce="Ed9gVRfT"></script>
     
+
     <div class="barra">
         <!-- barra -->
         <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script><div id="coinmarketcap-widget-marquee" coins="1,1027,2010,1839,5426,3890,4172,6636,5805,6783,52,2,1975,3077,7083,1958" currency="USD" theme="light" transparent="true" show-symbol-logo="true"></div>    
     </div>
 
-    <ul class="logo">
-        <a href="#info"><input type="image" src="img/logo.png" width="50px" height="50px"></a>
-    </ul>
-
-    <div class="nav">
-
-        <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <i class="bi bi-list"></i>
-            </label>
-            
-        <ul class="menu">
-            <li class="menu__li"><a href="index.html">Inicio</a></li>
-            <li class="menu__li"><a href="btc.html">Bitcoin <i class="fab fa-bitcoin"></i></a></li>
-            <li class="menu__li"><a href="#blockchain">Blockchain</a></li>
-            <li class="menu__li"><a href="nft.html">NFT</a></li>
-            <li class="menu__li"><a href="wallet.html">Guarda y cuida tus criptomonedas</a></li>
-            <li class="menu__li"><a href="analisis.html">Precios actuales</a></li>
-            <li class="menu__li"><a href="videos.html">Videos</a></li>
+    <div class="logo2">
+        <ul>
+            <a href="#info"><input type="image" src="img/logo.png"></a>
         </ul>
     </div>
 
-    <section id="info">
-        <div class="info">
-          <h1>Crypto Newbie</h1>
-          <h2>Aprendé sobre criptomonedas</h2>
+    <section>
+        <div class="info2">
+          <h1>Hola,</h1>
+          <h2>Aprendé sobre criptomonedas.</h2>
         </div> 
     </section>
 
-    <section id="quees">
-        <h2 class="videos">¿Qué es Bitcoin? <i class="fab fa-bitcoin"></i></h2>
-            <p>Bitcoin es una moneda de intercambio digital nacida en el año 2009. Se diferencia de otras monedas por no estar regulada por ningún gobierno o banco emisor (descentralizada) y usar una revolucionaria tecnología llamada <a href="#blockchain">Blockchain</a> para su infraestructura y seguridad. Su símbolo monetario es ₿ y su código es BTC. Bitcoin ofrece la posibilidad de obtener tasas de transacción más bajas entre sus usuarios en comparación con los mecanismos tradicionales de pago, debido a que no hay bancos intermediarios involucrados. Además, facilita el anonimato y la privacidad de quienes usan esta moneda. Hablando de anonimato, nadie conoce quién fue su creador, pues el artículo científico en el que se basó la moneda fue publicado por el seudónimo Satoshi Nakamoto, cuyo nombre real se desconoce.</p>
-                <div class="btn">
-                    <button class="boton"><a href="btc.html">Ver más</a></button>
-                </div>
-    <section id="blockchain">
-        <h2 class="videos">¿Qué es Blockchain?</h2>
-            <p>La tecnología blockchain tiene el potencial de cambiar la manera en la que se mueve el dinero y se registran las transacciones. Es común pensar en Bitcoin al mencionar blockchain, sin embargo Bitcoin es solo una aplicación de esta tecnología. Blockchain o la "cadena de bloques” nos permite registrar transacciones de manera pública y descentralizada, dejando un registro indeleble e incorruptible. Y son precisamente estas características las que permiten que tengamos criptomonedas como el Bitcoin, Ethereum, Cardano o Solana.</p>
-        <h2 class="videos">¿Qué son los NFT?</h2>
-            <p>Las siglas de NFT significan Non -Fungible Token, un token no fungible. Los tokens son unidades de valor que se le asignan a un modelo de negocio, como por ejemplo el de las criptomonedas. Y es que los NFT tienen una relación estrecha con las criptomonedas, por lo menos tecnológicamente, aunque son opuestos, ya que un Bitcoin es un bien fungible, y un NFT es un bien no fungible, pero en esencia, son como las dos caras de una moneda tecnológica.</p>
-                <div class="btn">
-                    <button class="boton"><a href="nft.html">Ver más</a></button>
-                </div>
-        <h2 class="videos">Guarda tus criptomonedas (Wallets)</h2>
-            <p>Las wallets o monederos de criptomonedas, son el puente que nos permiten administrar nuestras criptomonedas. Una pieza de software o de hardware con los que realizar las operaciones de recepción y envío a través de la red blockchain de cada criptomoneda.</p>
-            <div class="btn">
-                <button class="boton"><a href="wallet.html">Ver más</a></button>
-            </div>
-    </section>
-
-    <h2 class="videos">Valores actuales</h2>
-    <section id="analisis">
-    <!-- btc -->
-    <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script><div class="coinmarketcap-currency-widget" data-currencyid="1" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="USD"></div>
-    <!-- eth -->
-    <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script><div class="coinmarketcap-currency-widget" data-currencyid="1027" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="USD"></div>
-    <div class="btn">
-    <button class="boton"><a href="nft.html">Ver más</a></button>
+    <div class="sesion">
+        <h3 class="title">Inicia sesión</h3>
+        <input type="text" placeholder="Usario o e-mail" required><br>
+        <input type="password" placeholder="Contaseña" required><br>
+        <div class="btn">
+            <button class="boton" href="home.html">Ingresar</button>
+        </div>
     </div>
-    </section>
+
     
+<script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '{your-app-id}',
+        cookie     : true,
+        xfbml      : true,
+        version    : '{api-version}'
+      });
+        
+      FB.AppEvents.logPageView();   
+        
+    };
+  
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "https://connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+  </script>
+    
+    <script>
+    <fb:login-button 
+    scope="public_profile,email"
+    onlogin="checkLoginState();">
+    </fb:login-button>
 
-    <section id="vidd">
-    <!-- videos -->
-    <h2 class="videos">Videos informativos</h2>
-    <h3 class="title">Cómo comprar Bitcoin <i class="fab fa-bitcoin"></i></h3>
-    <div class="yt">
-        <iframe class="yt2" src="https://www.youtube.com/embed/_8ZnhtUd2ik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <div class="btn">
-        <button class="boton"><a href="videos.html">Ver más</a></button>
-    </div>
-    </section>
+    function checkLoginState() {
+        FB.getLoginStatus(function(response) {
+          statusChangeCallback(response);
+        });
+      }
+    </script>
+    <div class="fb-login-button" data-width="" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="true" data-use-continue-as="false"></div>
+
 
 
     <div class="contact-info">
@@ -106,10 +98,7 @@
             <li class="copy">© Copyright 2022 | Sitio por <a href="https://www.cabralfernando.com.ar" class="autor" target="_blank">Cabral Fernando</a></li>
         </ul>
     </div>
-
-
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-</body>
+  </body>
 </html>
