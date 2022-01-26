@@ -118,7 +118,7 @@ nav{
 
 .btn {
     width: 100px;
-    margin-left: 45%;
+    margin-left: 50%;
     transform: translateX(-50%);
 }
 .boton {
@@ -358,7 +358,8 @@ p {
         bottom:0px;
     }
     
-
+    .btn {
+        margin-left: 48%;
     
 
 }
