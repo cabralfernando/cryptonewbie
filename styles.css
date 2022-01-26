@@ -70,7 +70,7 @@ nav{
 }
 
 .info2 {
-    margin: 300px 0 100px 0;
+    margin: 260px 0 30px 0;
 }
 .info2 h1{
 	text-align: center;
@@ -91,14 +91,14 @@ nav{
     color: rgb(171, 102, 255);
 }
 .sesion {
-    margin: 5px 830px 100px 850px;
+    margin: 5px 830px 50px 850px;
 }
 .sesion input {
     border-radius: 8px;
 }
 .fb-login-button {
-    margin: 60px 850px 100px 830px;
-    padding-bottom: 50px;
+    margin: 10px 850px 10px 830px;
+    padding-bottom: 0;
 } 
 
 
@@ -118,7 +118,7 @@ nav{
 
 .btn {
     width: 100px;
-    margin-left: 50%;
+    margin-left: 45%;
     transform: translateX(-50%);
 }
 .boton {
@@ -165,7 +165,7 @@ p {
     transition: all .5s;
     opacity: .8;
     backdrop-filter: blur(10px);
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .contact-info h4, .contact-info ul, .contact-info p {
@@ -360,6 +360,7 @@ p {
     
     .btn {
         margin-left: 48%;
+    }
     
 
 }
