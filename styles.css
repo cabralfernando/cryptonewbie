@@ -194,7 +194,7 @@ p {
 }
 
 .copy i {
-    font-size: 25px;
+    font-size: 30px;
 }
 .copy i:hover {
     transition: color .3s ease-out;
