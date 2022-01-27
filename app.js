@@ -10,6 +10,6 @@ function alert(message, type) {
 
 if (alertTrigger) {
   alertTrigger.addEventListener('click', function () {
-    alert('No soy un asesor financiero, todo el contenido proporcionado en este sitio es de mero carácter educativo, basado en mi propio éxito y experiencia personal. Actúa de manera responsable e inteligente a la hora de Gastar e invertir tu dinero.', 'success')
+    alert('No soy un asesor financiero, todo el contenido proporcionado en este sitio es de mero carácter educativo, basado en mi propio éxito y experiencia personal. Actúa de manera responsable e inteligente a la hora de gastar e invertir tu dinero.', 'success')
   })
 }
