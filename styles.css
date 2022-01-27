@@ -118,7 +118,12 @@ nav{
 
 .btn {
     width: 100px;
-    margin-left: 45%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.btn2 {
+    width: 100px;
+    margin-left: 48%;
     transform: translateX(-50%);
 }
 .boton {
@@ -178,7 +183,7 @@ p {
 }
 .copy {
     display: inline-block;
-    padding: 10px 25px;
+    padding: 10px 10px;
 }
 .copy a{
     text-decoration: none;
@@ -189,7 +194,7 @@ p {
 }
 
 .copy i {
-    font-size: 35px;
+    font-size: 25px;
 }
 .copy i:hover {
     transition: color .3s ease-out;
