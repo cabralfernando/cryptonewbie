@@ -238,7 +238,7 @@ p {
     display: inline-block;
 }
 .nav ul li{
-    line-height: 80px;
+    line-height: 60px;
     margin: 0 5px;
 }
 .nav ul li a{
